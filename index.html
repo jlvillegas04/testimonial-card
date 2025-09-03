@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Testimonial Card - GreatFrontEnd Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['"Noto Sans"', "system-ui"],
+            },
+          },
+        },
+      };
+    </script>
+
+    <link rel="icon" href="img/favicon.ico" sizes="any" />
+  </head>
+  <body class="min-h-screen bg-gradient-to-br from-[#F9FAFB] to-[#D2D6DB] flex justify-center">
+    <div class="flex flex-col bg-white w-[340px] mt-[200px] rounded p-6 rounded-md mx-0 my-auto gap-4">
+      <div class="flex gap-4">
+        <img src="/img/profile-thumbnail.png" alt="Profile Picture" class="h-12 w-12">
+        <div>
+          <div class="font-semibold">
+            Sarah Dole
+          </div>
+          <div class="text-sm text-neutral-600">
+            @sarahdole
+          </div>
+        </div>
+      </div>
+      <blockquote>
+          <p class="text-neutral-600">
+            I've been searching for high-quality abstract images for my design
+            projects, and I'm thrilled to have found this platform. The variety
+            and depth of creativity are astounding!
+          </p>
+        </blockquote>
+    </div>
+  </body>
+</html>
